@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Breno, o Irmão mais Velho</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-inicial.jpg" alt="Pais deixam Breno cuidando de seu irmão mais novo">
+            <p>Os pais de Breno vão sair, ele recebeu a tarefa de ficar em casa para cuidar do irmão menor. Ele não pode sair de casa. </p>
+            <button class="btn-proximo" data-proximo="1">Próximo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Amigos de Breno aparecem inesperadamente, convidando-o para ir a uma festa na casa deles.</p>
+            <button class="btn-proximo" data-proximo="2">Próximo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Breno sai de casa, desobedecendo os pais?</p>
+            <button class="btn-proximo" data-proximo="3">Sim</button>
+            <button class="btn-proximo" data-proximo="4">Não</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Breno sai com seus amigos.</p>
+            <button class="btn-proximo" data-proximo="5">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Breno fica em casa, cuidando de seu irmão normalmente.</p>
+            <button class="btn-proximo" data-proximo="6">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ao voltar para casa, Breno se encontra com seus pais, que voltaram mais cedo.</p>
+            <button class="btn-proximo" data-proximo="7">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/recompensa.jpeg" alt="Família comendo pizza">
+            <p>Os pais voltam para casa e toda a família sai para a pizzaria, como recompensa.</p>
+            <button class="btn-proximo" data-proximo="9">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/castigo.jpeg" alt="Breno fica de castigo">
+            <p>Os pais, irritados, como castigo Breno fica um mês proibido de sair de casa.</p>
+            <button class="btn-proximo" data-proximo="9">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>FIM!</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
